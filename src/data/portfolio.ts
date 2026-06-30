@@ -16,7 +16,7 @@ export const work = [
     company: "Samara Capital",
     role: "Digital & AI Trainee",
     dates: "Jun 2026 — Present",
-    location: "Bengaluru, India",
+    location: "Mumbai, India",
     description:
       "Built internal AI tools, automations, and dashboards for investment and portfolio workflows spanning data collection, transformation, and analysis. Prototyped integrations of structured and unstructured data to support sourcing, diligence, monitoring, and operational decisions—working with investment and operating teams to automate processes and ship production-ready AI for high-priority workflows.",
     logo: "/logos/samara.png",
