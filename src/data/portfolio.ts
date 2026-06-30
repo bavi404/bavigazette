@@ -12,6 +12,32 @@ export const profile = {
 
 export const work = [
   {
+    id: "samara",
+    company: "Samara Capital",
+    role: "Digital & AI Trainee",
+    dates: "Jun 2026 — Present",
+    location: "Bengaluru, India",
+    description:
+      "Built internal AI tools, automations, and dashboards for investment and portfolio workflows spanning data collection, transformation, and analysis. Prototyped integrations of structured and unstructured data to support sourcing, diligence, monitoring, and operational decisions—working with investment and operating teams to automate processes and ship production-ready AI for high-priority workflows.",
+    logo: "/logos/samara.png",
+    logoAlt: "Samara Capital logo",
+    logoVariant: "light" as const,
+    tags: ["AI Tools", "Automation", "Dashboards", "Data Analysis"],
+  },
+  {
+    id: "ieee-wg",
+    company: "IEEE Working Group",
+    role: "Selected Member — Local-Language Reasoning SLMs",
+    dates: "Jun 2026 — Present",
+    location: "Research Collaboration",
+    description:
+      "Selected to a multi-institution IEEE working group building edge-deployable small language models (1–7B) for computer science and programming education in low-resource Dravidian and Indian languages. Work spans curating bilingual code-reasoning datasets, PEFT and teacher–student distillation, cross-lingual transfer studies across Indo-Aryan and Dravidian families, and mixed-methods pedagogical evaluation.",
+    logo: "/logos/ieee.png",
+    logoAlt: "IEEE logo",
+    logoVariant: "light" as const,
+    tags: ["SLMs", "Low-Resource NLP", "Code Reasoning", "PEFT", "Multilingual"],
+  },
+  {
     id: "tifin",
     company: "TIFIN",
     role: "AI / LLM Intern",

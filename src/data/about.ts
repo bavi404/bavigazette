@@ -160,6 +160,8 @@ export const aboutSections: AboutSection[] = [
       {
         type: "list",
         items: [
+          "small language models and low-resource multilingual NLP",
+          "local-language code reasoning and cross-lingual transfer",
           "vision transformers and multimodal learning",
           "geospatial foundation models and remote sensing AI",
           "explainability and fairness in computer vision",
@@ -190,6 +192,7 @@ export const aboutSections: AboutSection[] = [
       {
         type: "list",
         items: [
+          "Selected to IEEE working group on local-language reasoning SLMs (2026)",
           "Speaker at PyCon 2025",
           "Selected for Meta Build for AI Summit 2024",
           "Participant at Amazon ML Summer School",
