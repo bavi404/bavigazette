@@ -154,6 +154,10 @@ export const aboutSections: AboutSection[] = [
     blocks: [
       {
         type: "paragraph",
+        text: "Before anything else, I'm an artist. Writing, reading, and making art have always been how I make sense of the world—and helping make it better has always been the dream underneath everything I do.",
+      },
+      {
+        type: "paragraph",
         text: "Outside of technical work, I enjoy hackathons, reading research papers, mentoring peers, and exploring emerging ideas in AI systems and scientific computing.",
       },
       {
