@@ -114,13 +114,6 @@ export const recognition = [
 
 export const highlights = [
   {
-    title: "Polaris Fellowship — AI & CV Fellow at Aftershoot",
-    date: "Jul 2026 — Present",
-    description:
-      "Building facial feature analysis, automated curation, and style-learning models; cutting CV inference latency and adding bias-auditing for OOD robustness across diverse image datasets.",
-    tags: ["PyTorch", "Computer Vision", "Bias Auditing"],
-  },
-  {
     title: "10K+ automated LLM evaluations at TIFIN",
     date: "2025 — 2026",
     description:
