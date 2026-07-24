@@ -59,23 +59,6 @@ export const aboutSections: AboutSection[] = [
     ],
   },
   {
-    title: "Computer Vision & Geospatial AI",
-    blocks: [
-      {
-        type: "paragraph",
-        text: "Computer vision and geospatial AI are currently my strongest research interests.",
-      },
-      {
-        type: "paragraph",
-        text: "Through projects in landslide detection, medical imaging, fairness analysis, and satellite imagery understanding, I've worked extensively with CNNs, transformers, segmentation architectures, attention mechanisms, and multimodal remote sensing data.",
-      },
-      {
-        type: "paragraph",
-        text: "My work at the Indian Institute of Remote Sensing (ISRO) further strengthened my interest in geospatial machine learning and large-scale image analysis pipelines.",
-      },
-    ],
-  },
-  {
     title: "Building End-to-End AI Systems",
     blocks: [
       {
