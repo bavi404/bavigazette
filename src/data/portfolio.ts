@@ -2,7 +2,7 @@ export const profile = {
   name: "Bavishya",
   fullName: "Bavishya Sankaranarayanan",
   tagline: "building for better",
-  role: "B.Tech CS, IIIT Kottayam '26 · ML, computer vision, NLP & AI systems",
+  role: "AI & CV Fellow @ Aftershoot · Digital & AI @ Samara Capital · ML, computer vision, NLP & AI systems",
   initials: "BS",
   photo: "/profile.png",
   email: "sankaranarayananbavishya@gmail.com",

@@ -32,7 +32,16 @@ export default function HeroSection() {
           <span className="hero__dot" aria-hidden="true">
             ◆
           </span>
-          <span>{profile.fullName}</span>
+          <span className="hero__byline">
+            <img
+              src="/icons/mark.png"
+              alt=""
+              className="hero__mark"
+              width={18}
+              height={18}
+            />
+            {profile.fullName}
+          </span>
         </p>
         <Rule thick />
       </header>
@@ -82,7 +91,6 @@ export default function HeroSection() {
               height={400}
             />
           </div>
-          <figcaption className="hero__portrait-caption">IIIT Kottayam · Apr 2026</figcaption>
         </figure>
       </div>
     </section>

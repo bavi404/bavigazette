@@ -10,22 +10,22 @@ export type AboutSection = {
 };
 
 export const aboutIntro = [
-  `I enjoy building AI systems that combine strong research foundations with practical engineering. My work spans computer vision, NLP, geospatial AI, recommendation systems, and scalable ML infrastructure, with a particular focus on experimentation, evaluation, and real-world deployment.`,
-  `Over the past few years, I've worked on projects ranging from fairness-aware computer vision and medical imaging to multi-agent AI systems and remote sensing pipelines. I'm especially interested in how deep learning systems behave under real-world constraints — including robustness, explainability, scalability, and generalization.`,
-  `I like taking ideas from research papers, reproducing them rigorously, and extending them into usable systems through experimentation and iterative engineering.`,
+  `I'm an AI engineer who enjoys building intelligent systems that are useful, reliable, and grounded in solid engineering. My work spans machine learning, large language models, backend systems, and developer tooling, with an emphasis on taking ideas from research into production-quality software.`,
+  `I enjoy working across the entire lifecycle of AI systems—from collecting and preparing data to training models, evaluating their behavior, building APIs, designing user-facing applications, and deploying complete end-to-end solutions. Whether I'm implementing a computer vision model, building an LLM-powered workflow, or developing infrastructure around an AI system, I'm most interested in making the system practical, maintainable, and measurable.`,
+  `I learn best by building. Most of my projects begin with a paper, an interesting engineering problem, or a product idea, and evolve through experimentation, iteration, and continuous refinement.`,
 ];
 
 export const aboutSections: AboutSection[] = [
   {
-    title: "My Journey Into AI",
+    title: "How I Like to Work",
     blocks: [
       {
         type: "paragraph",
-        text: "My interest in AI began through computer vision and deep learning, initially exploring image classification and segmentation problems before gradually expanding into NLP, geospatial intelligence, recommendation systems, and agentic AI systems.",
+        text: "I enjoy working on problems that sit at the intersection of machine learning and software engineering. My approach is highly iterative: start with a simple baseline, measure it carefully, understand its limitations, and improve it through experimentation rather than intuition.",
       },
       {
         type: "paragraph",
-        text: "What started as curiosity about neural networks evolved into a broader interest in understanding how intelligent systems can be evaluated, optimized, and deployed reliably in real-world environments.",
+        text: "Over time this has led me to work on projects across computer vision, geospatial AI, recommendation systems, language models, AI agents, and data infrastructure—not because I'm trying to cover every domain, but because each project presented a different systems problem to solve.",
       },
     ],
   },
@@ -104,34 +104,30 @@ export const aboutSections: AboutSection[] = [
     ],
   },
   {
-    title: "Technical Approach",
+    title: "How I Approach Engineering",
     blocks: [
       {
         type: "paragraph",
-        text: "My approach to AI development is heavily experimentation-driven:",
+        text: "I try to build systems that are easy to understand, evaluate, and improve. A few ideas consistently shape how I work:",
       },
       {
         type: "principles",
         items: [
           {
-            label: "Reproducibility first",
-            text: "clean pipelines, controlled experiments, and measurable benchmarks",
+            label: "Measure before optimizing",
+            text: "Good evaluation is often more valuable than another percentage point of accuracy.",
           },
           {
-            label: "Evaluation matters",
-            text: "understanding why models fail is often more important than maximizing a single metric",
+            label: "Keep experiments reproducible",
+            text: "Small implementation details matter, so I prefer clean pipelines and controlled experiments.",
           },
           {
-            label: "Systems thinking",
-            text: "strong ML systems require reliable infrastructure, monitoring, and efficient deployment pipelines",
+            label: "Think beyond the model",
+            text: "Data quality, APIs, monitoring, and deployment usually have as much impact as model architecture.",
           },
           {
-            label: "Data-centric development",
-            text: "model quality depends heavily on dataset quality, preprocessing, and representation",
-          },
-          {
-            label: "Iterative improvement",
-            text: "small experimental insights often compound into major performance gains",
+            label: "Build incrementally",
+            text: "Most successful systems evolve through many small improvements rather than one large breakthrough.",
           },
         ],
       },
@@ -155,20 +151,17 @@ export const aboutSections: AboutSection[] = [
     blocks: [
       {
         type: "paragraph",
-        text: "Right now, I'm particularly interested in:",
+        text: "Right now I'm spending most of my time exploring:",
       },
       {
         type: "list",
         items: [
-          "small language models and low-resource multilingual NLP",
-          "local-language code reasoning and cross-lingual transfer",
-          "vision transformers and multimodal learning",
-          "geospatial foundation models and remote sensing AI",
-          "explainability and fairness in computer vision",
-          "agentic AI systems and workflow orchestration",
-          "efficient training and evaluation pipelines",
-          "ML monitoring, validation, and reproducibility",
-          "retrieval-augmented and multi-agent systems",
+          "small language models and multilingual AI",
+          "AI agents and workflow orchestration",
+          "retrieval-augmented systems",
+          "evaluation and benchmarking for LLMs",
+          "AI developer tools and infrastructure",
+          "computer vision for geospatial and scientific applications",
         ],
       },
     ],
@@ -183,22 +176,6 @@ export const aboutSections: AboutSection[] = [
       {
         type: "paragraph",
         text: "I'm especially interested in the broader impact of AI — including fairness, accessibility, reliability, and how intelligent systems can be designed responsibly for real-world use cases.",
-      },
-    ],
-  },
-  {
-    title: "Recognition & Programs",
-    blocks: [
-      {
-        type: "list",
-        items: [
-          "Polaris Fellowship — Top 10 national builder cohort (AI & CV Fellow at Aftershoot, 2026)",
-          "Selected to IEEE working group on local-language reasoning SLMs (2026)",
-          "Speaker at PyCon 2025",
-          "Selected for Meta Build for AI Summit 2024",
-          "Participant at Amazon ML Summer School",
-          "Lady Ada finalist",
-        ],
       },
     ],
   },

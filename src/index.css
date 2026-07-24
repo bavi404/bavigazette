@@ -153,6 +153,20 @@ body {
   color: #8b2500;
 }
 
+.hero__byline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.hero__mark {
+  width: 1.1rem;
+  height: 1.1rem;
+  object-fit: contain;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
 .hero__body {
   display: grid;
   grid-template-columns: 1fr auto;
