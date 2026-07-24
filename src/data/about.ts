@@ -192,6 +192,7 @@ export const aboutSections: AboutSection[] = [
       {
         type: "list",
         items: [
+          "Polaris Fellowship — Top 10 national builder cohort (AI & CV Fellow at Aftershoot, 2026)",
           "Selected to IEEE working group on local-language reasoning SLMs (2026)",
           "Speaker at PyCon 2025",
           "Selected for Meta Build for AI Summit 2024",

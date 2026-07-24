@@ -12,6 +12,19 @@ export const profile = {
 
 export const work = [
   {
+    id: "polaris",
+    company: "The Polaris Fellowship · Aftershoot",
+    role: "AI & Computer Vision Fellow",
+    dates: "Jul 2026 — Present",
+    location: "Delhi, India",
+    description:
+      "Selected to the Polaris Fellowship national builder cohort (Top 10 nationwide) to build core AI IP alongside founders at Aftershoot, backed by ₹4L in cloud compute. Engineering deep learning models for facial feature analysis, automated image curation, and personalized style learning in PyTorch—refactoring CV pipelines for lower inference latency and integrating bias-auditing metrics for out-of-distribution robustness.",
+    logo: "/logos/polaris.png",
+    logoAlt: "The Polaris Fellowship logo",
+    logoVariant: "light" as const,
+    tags: ["Computer Vision", "PyTorch", "Generative Modeling", "Bias Auditing"],
+  },
+  {
     id: "samara",
     company: "Samara Capital",
     role: "Digital & AI Trainee",
@@ -67,6 +80,13 @@ export const work = [
 
 export const recognition = [
   {
+    title: "The Polaris Fellowship — Top 10 National Builder Cohort",
+    date: "Jul 2026",
+    description:
+      "Awarded the Polaris Fellowship (Top 10 nationwide) to build core AI IP at Aftershoot, with ₹4L in cloud compute backing for computer vision and generative modeling work.",
+    tags: ["Fellowship", "Computer Vision", "Aftershoot"],
+  },
+  {
     title: "Speaker at PyCon 2025",
     date: "2025",
     description: "Invited speaker at PyCon 2025.",
@@ -93,6 +113,13 @@ export const recognition = [
 ];
 
 export const highlights = [
+  {
+    title: "Polaris Fellowship — AI & CV Fellow at Aftershoot",
+    date: "Jul 2026 — Present",
+    description:
+      "Building facial feature analysis, automated curation, and style-learning models; cutting CV inference latency and adding bias-auditing for OOD robustness across diverse image datasets.",
+    tags: ["PyTorch", "Computer Vision", "Bias Auditing"],
+  },
   {
     title: "10K+ automated LLM evaluations at TIFIN",
     date: "2025 — 2026",
