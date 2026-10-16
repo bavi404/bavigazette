@@ -15,20 +15,20 @@ export const work = [
     id: "polaris",
     company: "The Polaris Fellowship · Aftershoot",
     role: "AI & Computer Vision Fellow",
-    dates: "Jul 2026 — Present",
+    dates: "Aug 2026 — Present",
     location: "Delhi, India",
     description:
-      "Selected to the Polaris Fellowship national builder cohort (Top 10 nationwide) to build core AI IP alongside founders at Aftershoot, backed by ₹4L in cloud compute. Engineering deep learning models for facial feature analysis, automated image curation, and personalized style learning in PyTorch—refactoring CV pipelines for lower inference latency and integrating bias-auditing metrics for out-of-distribution robustness.",
+      "Developing deep learning models in PyTorch for facial feature analysis, automated image curation, and personalized style learning. Contributing to product engineering through PRDs, customer requirements, SQL queries, and dashboards alongside model development. Selected for the Polaris Fellowship national builder cohort (Top 10 nationwide) to build core AI IP at Aftershoot.",
     logo: "/logos/polaris.png",
     logoAlt: "The Polaris Fellowship logo",
     logoVariant: "light" as const,
-    tags: ["Computer Vision", "PyTorch", "Generative Modeling", "Bias Auditing"],
+    tags: ["Computer Vision", "PyTorch", "Product Engineering", "SQL"],
   },
   {
     id: "samara",
     company: "Samara Capital",
-    role: "Digital & AI Trainee",
-    dates: "Jun 2026 — Present",
+    role: "Digital & AI Intern",
+    dates: "Jun 2026 — Aug 2026",
     location: "Mumbai, India",
     description:
       "Built internal AI tools, automations, and dashboards for investment and portfolio workflows spanning data collection, transformation, and analysis. Prototyped integrations of structured and unstructured data to support sourcing, diligence, monitoring, and operational decisions—working with investment and operating teams to automate processes and ship production-ready AI for high-priority workflows.",
@@ -81,9 +81,9 @@ export const work = [
 export const recognition = [
   {
     title: "The Polaris Fellowship — Top 10 National Builder Cohort",
-    date: "Jul 2026",
+    date: "Aug 2026",
     description:
-      "Awarded the Polaris Fellowship (Top 10 nationwide) to build core AI IP at Aftershoot, with ₹4L in cloud compute backing for computer vision and generative modeling work.",
+      "Selected for the Polaris Fellowship national builder cohort (Top 10 nationwide) to build core AI IP at Aftershoot as an AI & Computer Vision Fellow.",
     tags: ["Fellowship", "Computer Vision", "Aftershoot"],
   },
   {
