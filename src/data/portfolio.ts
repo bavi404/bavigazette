@@ -2,7 +2,7 @@ export const profile = {
   name: "Bavishya",
   fullName: "Bavishya Sankaranarayanan",
   tagline: "building for better",
-  role: "AI & CV Fellow @ Aftershoot · Digital & AI @ Samara Capital · ML, computer vision, NLP & AI systems",
+  role: "AI Fellow @ Aftershoot · Digital & AI @ Samara Capital · ML, computer vision, NLP & AI systems",
   initials: "BS",
   photo: "/profile.png",
   email: "sankaranarayananbavishya@gmail.com",
@@ -14,7 +14,7 @@ export const work = [
   {
     id: "polaris",
     company: "The Polaris Fellowship · Aftershoot",
-    role: "AI & Computer Vision Fellow",
+    role: "AI Fellow",
     dates: "Aug 2026 — Present",
     location: "Delhi, India",
     description:
@@ -83,7 +83,7 @@ export const recognition = [
     title: "The Polaris Fellowship — Top 10 National Builder Cohort",
     date: "Aug 2026",
     description:
-      "Selected for the Polaris Fellowship national builder cohort (Top 10 nationwide) to build core AI IP at Aftershoot as an AI & Computer Vision Fellow.",
+      "Selected for the Polaris Fellowship national builder cohort (Top 10 nationwide) to build core AI IP at Aftershoot as an AI Fellow.",
     tags: ["Fellowship", "Computer Vision", "Aftershoot"],
   },
   {
