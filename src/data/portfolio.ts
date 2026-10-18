@@ -499,7 +499,7 @@ export const skillCategories: { id: SkillCategory; label: string; count: number 
 export const education = {
   school: "Indian Institute of Information Technology (IIIT) Kottayam",
   degree: "B.Tech in Computer Science",
-  dates: "Graduated Apr 2026",
+  dates: "Graduated Oct 2026",
 };
 
 export const navItems = [
