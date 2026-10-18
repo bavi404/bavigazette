@@ -87,10 +87,10 @@ export const recognition = [
     tags: ["Fellowship", "Computer Vision", "Aftershoot"],
   },
   {
-    title: "Speaker at PyCon 2025",
+    title: "Presenter at PyCon 2025",
     date: "2025",
-    description: "Invited speaker at PyCon 2025.",
-    tags: ["Speaking", "PyCon", "Python"],
+    description: "Invited presenter at PyCon 2025.",
+    tags: ["Presenting", "PyCon", "Python"],
   },
   {
     title: "Meta Build for AI Summit 2024",
